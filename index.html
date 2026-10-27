@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css" />
+		<style>
+			body{
+				background: #5418cdff;
+				color: white;
+				text-align: center;
+				font-family: Grotley;
+			}
+			#square{
+				width: 320px;
+				height: 140px;
+				object-fit: cover;
+				margin: 29px auto;
+				animation: spin 1s linear infinite;
+			}
+			@keyframes spin {
+				0% {
+					transform: rotate(1deg);
+				}
+				100% {
+					transform: rotate(-360deg);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<h1>MY extremely COOOOOOOOL NEW website</h1>
+		<p>This is a playground to get to know html</p>
+		<button id="go">Press me </button>
+		<script src="script.js"></script>
+		<img id="square" src="https://www.bing.com/th/id/OIP.erum09H1k-yKlJYi6BusYgHaEK?w=152&h=111&c=8&rs=1&qlt=90&o=6&dpr=2&pid=ImgAns&rm=2" alt="myphoto">
+	</body>
+</html>
